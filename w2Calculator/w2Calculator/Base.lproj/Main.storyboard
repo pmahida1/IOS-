@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2eJ-XQ-6V8">
+                                <rect key="frame" x="20" y="82" width="335" height="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oyF-iL-m0s">
+                                <rect key="frame" x="100" y="28" width="172" height="26"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="22"/>
+                                <color key="textColor" red="0.82284849476439792" green="0.42258521670832938" blue="0.32560633736255584" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a3i-ic-CND">
+                                <rect key="frame" x="20" y="115" width="60" height="60"/>
+                                <state key="normal" title="7"/>
+                                <connections>
+                                    <action selector="press7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2li-db-a0K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEB-fc-qOr">
+                                <rect key="frame" x="100" y="115" width="60" height="60"/>
+                                <state key="normal" title="8"/>
+                                <connections>
+                                    <action selector="press8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pB1-yU-lyo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eoI-nq-53W">
+                                <rect key="frame" x="190" y="115" width="60" height="60"/>
+                                <state key="normal" title="9"/>
+                                <connections>
+                                    <action selector="press9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7f2-NG-NAQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDp-ji-UGW">
+                                <rect key="frame" x="290" y="115" width="60" height="60"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="setPlus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KQx-2X-6FW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tg3-FO-DqY">
+                                <rect key="frame" x="22" y="183" width="60" height="60"/>
+                                <state key="normal" title="4"/>
+                                <connections>
+                                    <action selector="press4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KBF-6y-VbA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Qa-1M-Ls1">
+                                <rect key="frame" x="102" y="183" width="60" height="60"/>
+                                <state key="normal" title="5"/>
+                                <connections>
+                                    <action selector="press5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hpU-Xj-T8V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXX-aI-lNL">
+                                <rect key="frame" x="192" y="183" width="60" height="60"/>
+                                <state key="normal" title="6"/>
+                                <connections>
+                                    <action selector="press6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aJ2-Nu-Ial"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hvr-Rl-TbX">
+                                <rect key="frame" x="292" y="183" width="60" height="60"/>
+                                <state key="normal" title="-"/>
+                                <connections>
+                                    <action selector="setMinus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b6B-t2-3jf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EyK-ag-bHF">
+                                <rect key="frame" x="25" y="251" width="60" height="60"/>
+                                <state key="normal" title="1"/>
+                                <connections>
+                                    <action selector="press1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X6H-GN-3bB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S0W-F3-K5K">
+                                <rect key="frame" x="99" y="251" width="60" height="60"/>
+                                <state key="normal" title="2"/>
+                                <connections>
+                                    <action selector="press2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m53-Na-ksf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A7I-bp-N1p">
+                                <rect key="frame" x="195" y="251" width="60" height="60"/>
+                                <state key="normal" title="3"/>
+                                <connections>
+                                    <action selector="press3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oJb-8b-aAm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="waT-0W-mNQ">
+                                <rect key="frame" x="295" y="251" width="60" height="60"/>
+                                <state key="normal" title="*"/>
+                                <connections>
+                                    <action selector="setMultiply:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5jV-eH-maJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ghd-d8-XPl">
+                                <rect key="frame" x="25" y="328" width="60" height="60"/>
+                                <state key="normal" title="C"/>
+                                <connections>
+                                    <action selector="clearNum:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AYf-Vq-yh6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12B-bi-EIu">
+                                <rect key="frame" x="99" y="328" width="60" height="60"/>
+                                <state key="normal" title="0"/>
+                                <connections>
+                                    <action selector="press0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P0M-dR-Xwd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PO5-GE-wTV">
+                                <rect key="frame" x="195" y="328" width="60" height="60"/>
+                                <state key="normal" title="="/>
+                                <connections>
+                                    <action selector="calculate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ddg-hF-zQg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYM-ed-2bg">
+                                <rect key="frame" x="295" y="328" width="60" height="60"/>
+                                <state key="normal" title="/"/>
+                                <connections>
+                                    <action selector="setDivide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kwQ-9n-ROC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="lblText" destination="2eJ-XQ-6V8" id="GZ8-4n-ZTY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="244.5" y="308.5"/>
+        </scene>
+    </scenes>
+</document>
